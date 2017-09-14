@@ -2,11 +2,23 @@
   border: 2px solid red;
 }
 
+.padre{
+  position: absolute;
+  background-color: pink;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
 .div {
   border: 3px dashed #CCC;
   border-width: 2px;
   border-style: dotted;
-  border-color: pink
+  border-color: pink;
+}
+
+.section{
+  position:relative;
+
 }
 
 .h2 {
