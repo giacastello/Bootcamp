@@ -52,3 +52,7 @@ background: linear-gradient(to left, black, white);
   background: linear-gradient(to left, black, white);
   height: 200px;
 }
+.header{
+  height: 130px;
+  background-color: rgb(227,193,74);
+}
