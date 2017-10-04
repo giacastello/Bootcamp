@@ -113,9 +113,10 @@ container
 .barramenu{
   display: block;
   position: fixed;
+  top: 30;
+  right: 0;
   z-index: 1;
   padding: 10px;
-  float:right;
 }
 
 #foto{
