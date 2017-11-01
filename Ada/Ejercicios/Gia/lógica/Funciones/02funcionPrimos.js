@@ -5,7 +5,7 @@ https://www.numerosreales.com/  */
 
 function primos(n){
   if (n==1) {
-    console.log('El número $ {n} NO es primo');
+    console.log('El número ${n} NO es primo');
     return false;
   }
   else if(n === 2){
@@ -22,4 +22,4 @@ function primos(n){
     return true;
   }
 }
-console.log(primos(26));
+console.log(primos(13));
