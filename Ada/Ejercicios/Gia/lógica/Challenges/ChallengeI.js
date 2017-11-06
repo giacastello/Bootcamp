@@ -9,21 +9,17 @@ Ambos métodos deben estar encapsulados en una función y devolver el array or
 
 
 QuickSort https://es.wikipedia.org/wiki/Quicksort
-Se compone de 3 funciones:
-dividir:
-orden/pivot:
-swap
 */
 
 // 15 elementos generados aleatoriamente: Lo hicimos con el disfraz.
-Var arr = [8,3,10,2,5];
+var arr = [8,3,10,2,5];
+  console.log('array desordenado: ' + arr);
+
 /*
 Para ordenarlos de mayor a menor, voy a ubicarme en el medio, para poder recorrer en la mitad del tiempo, a diferencia que arrancar de un lado al otro y recorrer tooooodo el array. Para ubicarme hago length/2 y saco el índice donde se encuentra
 */
 
-var p = length/2;
-
-var p = length -1; var swap;
+var p = arr.length -1; var swap;
 
 
 for (p = arr.length-1; p>0; p--){
@@ -36,3 +32,5 @@ for (p = arr.length-1; p>0; p--){
     }
   }
 }
+
+console.log('array ordenado: ' +arr);
