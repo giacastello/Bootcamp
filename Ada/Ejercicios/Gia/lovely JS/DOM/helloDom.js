@@ -22,6 +22,8 @@ caja.appendChild(contenido);
 //con el método setAttribute podemos crear atributos para los elementos.
 //los parámetros de setAttribute son (tipo, nombre)
 caja.setAttribute('class','caja naranja')
+caja.className = "caja naranja";
+caja.style.backgroundColor = "orange";
 
 
 var contenedor = document.getElementById('contenedor');
