@@ -14,6 +14,7 @@ primeraCaja.innerHTML = '<h1> Hola mundo </h1>';//innerHTML sirve para darles ca
 
 
 var caja = document.createElement('div');
+
 var contenido = document.createTextNode('Nueva caja');//este elemento lo creo desde aca, y lo guardo en una variable.
 
 //agrego 'hola' de contenido al div caja, y se lo pongo como hijo
