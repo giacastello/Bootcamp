@@ -5,6 +5,7 @@ var lis = document.getElementsByTagName ('li');
 var btnAgregar = document.getElementById('agregar');
 var btnEliminar = document.getElementById('eliminar');
 
+//Podemos sumarle más de un addEvent Listener por botón
 //creo un evento addEventListener que tiene dos parámetros (evento, función)
 btnAgregar.addEventListener('click', agregar);
 btnEliminar.addEventListener('click', eliminar);
